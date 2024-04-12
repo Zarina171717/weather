@@ -8,4 +8,32 @@ body {
 }
 .imgbox img {
   width: 100%;
+}
+
+#weather {
+  padding-top: 130px;
+}
+#weather .box {
+  padding: 40px;
+  background-color: #c4d492;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+}
+#weather .box .data {
+  font-size: 26px;
+}
+#weather .box .data h2 {
+  margin-top: 20px;
+}
+#weather .box input {
+  border-radius: 20px;
+  margin: 20px 0;
+}
+#weather .box .btn {
+  color: white;
+  background-color: #8b9865;
+  font-size: 21px;
+  border-radius: 25px;
+  padding: 5px 25px;
 }/*# sourceMappingURL=style.css.map */
