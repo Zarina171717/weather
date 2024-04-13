@@ -14,8 +14,9 @@ body {
   padding-top: 130px;
 }
 #weather .box {
-  padding: 40px;
-  background-color: #c4d492;
+  border: 2px solid #6099a1;
+  padding: 60px;
+  background-color: #afd8e3;
   border-radius: 20px;
   color: white;
   text-align: center;
@@ -29,10 +30,11 @@ body {
 #weather .box input {
   border-radius: 20px;
   margin: 20px 0;
+  border: 2px solid #6099a1;
 }
 #weather .box .btn {
   color: white;
-  background-color: #8b9865;
+  background-color: #6099a1;
   font-size: 21px;
   border-radius: 25px;
   padding: 5px 25px;
