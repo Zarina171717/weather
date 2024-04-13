@@ -11,13 +11,13 @@ $(document).ready(function () {
                 $("#temp").html(data.main.temp);
                 $("#feels").html(data.main.feels_like);
                 $("#myWeather").val("");
-                console.log(data);
+                console.log(data)
             }
-            myweather();
+            myweather()
         }
     });
 
-    $("#btn").click(function (e) {
+    $(".btn").click(function (e) {
         e.preventDefault();
         let url = `https://api.openweathermap.org/data/2.5/weather?q=${$("#myWeather").val()}&appid=bc2c00e8e5f27b506fbea3429ba7a3b2&units=metric`;
         async function myweather() {
@@ -27,9 +27,9 @@ $(document).ready(function () {
             $("#temp").html(data.main.temp);
             $("#feels").html(data.main.feels_like);
             $("#myWeather").val("");
-            console.log(data);
+            console.log(data)
         }
-        myweather();
+        myweather()
     });
 
 
