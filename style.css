@@ -11,12 +11,11 @@ body {
 }
 
 #weather {
-  padding-top: 130px;
+  padding-top: 110px;
 }
 #weather .box {
-  border: 2px solid #6099a1;
-  padding: 60px;
-  background-color: #afd8e3;
+  padding: 35px 0;
+  background-color: #a4caff;
   border-radius: 20px;
   color: white;
   text-align: center;
@@ -25,17 +24,17 @@ body {
   font-size: 26px;
 }
 #weather .box .data h2 {
-  margin-top: 20px;
+  margin-top: 28px;
 }
 #weather .box input {
   border-radius: 20px;
-  margin: 20px 0;
-  border: 2px solid #6099a1;
+  margin: 30px;
+  padding: 10px;
 }
 #weather .box .btn {
   color: white;
-  background-color: #6099a1;
+  background-color: #79afff;
   font-size: 21px;
   border-radius: 25px;
-  padding: 5px 25px;
+  padding: 5px 28px;
 }/*# sourceMappingURL=style.css.map */
