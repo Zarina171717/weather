@@ -19,6 +19,7 @@ body {
   border-radius: 20px;
   color: white;
   text-align: center;
+  width: 250px;
 }
 #weather .box .data {
   font-size: 25px;
